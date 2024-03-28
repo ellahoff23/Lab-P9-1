@@ -24,5 +24,12 @@ int main() {
         cout << randomNumbers[i] << endl;
     }
 
+    cout << "\nEven elements:" << endl;
+    for (int i = 0; i < size; i++) {
+        if (randomNumbers[i] % 2 == 0) {
+            cout << randomNumbers[i] << endl;
+        }
+    }
+
     return 0;
 }
