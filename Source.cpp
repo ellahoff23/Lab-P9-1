@@ -41,4 +41,4 @@ int main() {
     cout << randomNumbers[size - 1] << endl;
 
     return 0;
-}
+} 
